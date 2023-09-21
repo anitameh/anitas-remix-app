@@ -5,6 +5,10 @@ export const action = async ({ request }) => {
   const { topic, shop, session } = await authenticate.webhook(request);
 
   switch (topic) {
+    case "PRODUCTS_CREATE":
+      console.log(topic);
+      console.log(await request.json());
+
     case "APP_UNINSTALLED":
       if (session) {
         await db.session.deleteMany({ where: { shop } });

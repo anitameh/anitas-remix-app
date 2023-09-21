@@ -2,7 +2,7 @@
 
 name = "anitas-remix-app"
 client_id = "a3f7ecbeae8f94831d5956fd1ae17f33"
-application_url = "https://suspected-obtaining-lambda-auction.trycloudflare.com"
+application_url = "https://undergraduate-helped-pockets-involvement.trycloudflare.com"
 embedded = true
 
 [access_scopes]
@@ -11,9 +11,9 @@ scopes = "write_products"
 
 [auth]
 redirect_urls = [
-  "https://suspected-obtaining-lambda-auction.trycloudflare.com/auth/callback",
-  "https://suspected-obtaining-lambda-auction.trycloudflare.com/auth/shopify/callback",
-  "https://suspected-obtaining-lambda-auction.trycloudflare.com/api/auth/callback"
+  "https://undergraduate-helped-pockets-involvement.trycloudflare.com/auth/callback",
+  "https://undergraduate-helped-pockets-involvement.trycloudflare.com/auth/shopify/callback",
+  "https://undergraduate-helped-pockets-involvement.trycloudflare.com/api/auth/callback"
 ]
 
 [webhooks]
